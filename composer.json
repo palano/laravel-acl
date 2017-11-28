@@ -1,0 +1,30 @@
+{
+    "name": "palano/laravel-acl",
+    "description": "Package for Laravel Role, Permission, Permission Group",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Palano",
+            "email": "palano.git@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/console": "~5.0",
+        "illuminate/support": "~5.0",
+        "illuminate/cache": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Palano\\LaravelAcl\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Palano\\LaravelAcl\\LaravelAclServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
